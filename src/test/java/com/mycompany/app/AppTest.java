@@ -36,7 +36,7 @@ public class AppTest
         try {
             assertEquals("Hello DevOps!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello DevOps!\");
+            fail("\"message\" is not "\"Hello DevOps!"\");
         }
     }
 
